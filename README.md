@@ -18,3 +18,11 @@ parser_config.wtg = {
 	filetype = "wtg", -- if filetype does not match the parser name
 }
 ```
+
+Add the queries to the correct directory
+
+`mkdir ~/.config/nvim/after/queries/wtg && cp queries/highlights.scm ~/.config/nvim/after/queries/wtg`
+
+Then set the filetype for the current buffer
+
+`:set filetype=wtg`
