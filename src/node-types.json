@@ -1,0 +1,44 @@
+[
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "vc_definition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "vc_definition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "dash",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "dash",
+    "named": true
+  },
+  {
+    "type": "identifier",
+    "named": true
+  }
+]

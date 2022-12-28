@@ -1,0 +1,12 @@
+==================
+Return statements
+==================
+
+foo foo ---- bar bar
+
+---
+
+(source_file
+  (vc_definition (identifier)
+	(dash)
+    (identifier)))
